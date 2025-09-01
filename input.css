@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-    --font-heading: 'Big Shoulders', sans-serif;
-    --font-body: 'Lexend Deca', sans-serif;
+  --font-heading: "Big Shoulders", sans-serif;
+  --font-body: "Lexend Deca", sans-serif;
+  --color-left: hsl(31, 77%, 52%);
+  --color-middle: hsl(184, 100%, 22%);
+  --color-right: hsl(179, 100%, 13%);
+  --color-bg: hsl(0, 0%, 98%);
+  --color-paragraph: hsla(0, 0%, 0%, 0.75);
+  --color-text: hsl(0, 0%, 95%);
 }
