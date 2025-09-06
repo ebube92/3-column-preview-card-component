@@ -25,33 +25,37 @@
   </head>
   <body class="color-bg flex items-center justify-center min-h-screen">
     <main
-      class="flex flex-col md:flex-row gap-6 md:gap-0 w-[80%] md:max-w-[70%] rounded-lg"
+      class="flex flex-col md:flex-row gap-0 w-[80%] md:max-w-[60%] rounded-lg"
     >
-      <div class="bg-left p-10">
-        <div>
+      <div class="bg-first card rounded-t-lg md:rounded-l-lg md:rounded-t-none">
+        <div class="mb-4">
           <img src="images/icon-sedans.svg" alt="sedans icon" />
         </div>
-        <h1>SEDANS</h1>
-        <p>
+        <h1 class="font-heading text-4xl text-bg">SEDANS</h1>
+        <p class="p">
           Choose a sedan for its affordability and excellent fuel economy. Ideal
           for cruising in the city or on your next road trip.
         </p>
-        <button>Learn More</button>
+        <button
+          class="button text-first hover:bg-first hover:text-bg border-bg border-2 cursor-pointer"
+        >
+          Learn More
+        </button>
       </div>
 
-      <div class="bg-middle">
+      <div class="bg-second card">
         <div>
           <img src="images/icon-suvs.svg" alt="suv icon" />
         </div>
         <h1>SUVS</h1>
-        <p>
+        <p cl>
           Take an SUV for it spacious interior, power, and versatiliry. Perfect
           for your next family vacation and off-road adventures.
         </p>
         <button>Learn More</button>
       </div>
 
-      <div class="bg-right">
+      <div class="bg-third">
         <div>
           <img src="images/icon-luxury.svg" alt="luxury icon" />
         </div>

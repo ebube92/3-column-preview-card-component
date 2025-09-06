@@ -3,10 +3,24 @@
 @theme {
   --font-heading: "Big Shoulders", sans-serif;
   --font-body: "Lexend Deca", sans-serif;
-  --color-left: hsl(31, 77%, 52%);
-  --color-middle: hsl(184, 100%, 22%);
-  --color-right: hsl(179, 100%, 13%);
+  --color-first: hsl(31, 77%, 52%);
+  --color-second: hsl(184, 100%, 22%);
+  --color-third: hsl(179, 100%, 13%);
   --color-bg: hsl(0, 0%, 98%);
-  --color-paragraph: hsla(0, 0%, 0%, 0.75);
+  --color-paragraph: hsla(0, 0%, 100%, 0.75);
   --color-text: hsl(0, 0%, 95%);
+}
+
+@layer components {
+  .card {
+    @apply flex flex-col gap-6 md:p-14 p-6 align-bottom;
+  }
+
+  .p {
+    @apply text-paragraph w-[80%] text-[15px] mb-12
+  }
+
+  .button {
+    @apply self-start px-7 py-3 rounded-full bg-bg font-body text-[15px];
+  }
 }
