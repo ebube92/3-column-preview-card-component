@@ -16,11 +16,15 @@
     @apply flex flex-col gap-6 md:p-14 p-6 align-bottom;
   }
 
+  .heading {
+    @apply font-heading text-4xl text-bg;
+  }
+
   .p {
-    @apply text-paragraph w-[80%] text-[15px] mb-12
+    @apply text-paragraph font-body w-[85%] text-[15px] mb-12;
   }
 
   .button {
-    @apply self-start px-7 py-3 rounded-full bg-bg font-body text-[15px];
+    @apply self-start justify-self-end px-7 py-3 rounded-full bg-bg font-body text-[15px];
   }
 }
